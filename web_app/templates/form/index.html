@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="en">
+
+    <style>
+        ul 
+        {
+            list-style-type: none;
+            margin: 0 auto ;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+            ul.b
+        {
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0;
+            overflow: hidden;
+            background-color:wheat;
+            opacity: 10;
+        }
+        
+        
+        li a 
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+        }
+        
+        /* Change the link color to #111 (black) on hover */
+        li a:hover 
+        {
+            background-color: #111;
+            
+        }
+        
+        
+        
+        
+        html { 
+        background: url(static/images/beer_foam.gif) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+        
+        h1
+        {
+            color: green;
+            text-align: center;
+        }
+            
+        </style>
+
+    
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Home Brew Beer Recipe Recommender</title>
+
+  <meta name="description" content="Home Brew Beer Recipe Recommender">
+  <meta name="author" content="Bob Carter">
+
+</head>
+
+<body>
+
+  <h1>Home Brew Beer Recipe Recommender</h1>
+  <ul>
+    <li><a href="{{ url_for('index') }}">Home</a></li>
+    <li><a href="{{ url_for('beer') }}">Beer Style Selection</a></li>
+        
+  </ul>
+  
+</body>
+</html>
