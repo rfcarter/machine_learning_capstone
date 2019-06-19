@@ -8,7 +8,7 @@ I downloaded about 1000 recipes from American Homebrewers Association website. I
 
 An example recipe.
 
-![example_recipe](recipe_example.jpg)
+![example_recipe](img/recipe_example.jpg)
 
 ## Factors influencing flavor in beer
  
@@ -16,7 +16,7 @@ The base malt is the main ingredient in beer. All other ingredients are supporti
 
 Brewers Association beer style guidelines
 
-![beer_styles](beer_styles.jpg)
+![beer_styles](img/beer_styles.jpg)
 
 ## EDA
 
